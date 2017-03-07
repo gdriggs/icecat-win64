@@ -1,3 +1,8 @@
 ac_add_options --target=x86_64-pc-mingw32
 ac_add_options --host=x86_64-pc-mingw32
+# comment out the above & use these target and host entries for 32-bit builds
+#ac_add_options --target=i686-pc-mingw32
+#ac_add_options --host=i686-pc-mingw32
+#
+# this is for putting IceCat logos in the proper locations
 ac_add_options --enable-official-branding
